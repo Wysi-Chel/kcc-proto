@@ -105,7 +105,7 @@ $carMakes = array_keys($carData);
               <option value="<?php echo $customer['CustomerID']; ?>"><?php echo $customer['Name']; ?></option>
             <?php endforeach; ?>
           </select>
-          <button type="button" id="addCustomerBtn">Add Customer</button>
+          <!-- <button type="button" id="addCustomerBtn">Add Customer</button> -->
         </div>
         <div>
           <label for="car_make">Car Make:</label>
